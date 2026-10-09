@@ -1,0 +1,14 @@
+<p>A privacy-first, simplicity-first weather app. One screen: current conditions, the next 24 hours, the next 7 days.</p>
+
+<p>Named for the weather balloon, the humble instrument that gathers a forecast's raw truth and reports back, nothing more. On the home screen the current temperature wears a sun halo, flanked by two bright companion spots.</p>
+
+<p><b>Privacy</b></p>
+<ul>
+<li>Weather and place search come from Open-Meteo: keyless, no account, no tracking.</li>
+<li>The radar card (US only) shows NOAA NEXRAD imagery from the Iowa Environmental Mesonet, fetched only while the card is open. Tile requests carry no coordinates, just which ~240 km map squares are in view. The base map is built into the app from public-domain Census and Natural Earth data and makes no requests at all.</li>
+<li>Only two permissions: INTERNET and ACCESS_COARSE_LOCATION. Location is optional: pin a place by search and revoke it entirely.</li>
+<li>Coordinates are rounded to ~1 km before any request leaves the device.</li>
+<li>The town name in the header comes from the device's geocoder where one exists, sent the rounded coordinates only. Devices without a geocoder just show "My location".</li>
+<li>No Play Services, no analytics, no third-party SDKs. Networking is plain HttpURLConnection.</li>
+<li>The last good forecast is cached locally so the app works offline.</li>
+</ul>

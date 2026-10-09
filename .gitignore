@@ -1,0 +1,13 @@
+.gradle/
+build/
+local.properties
+.kotlin/
+*.iml
+.idea/
+
+# Release signing: keys live outside the repo (see README "Build").
+signing.properties
+.keystore/
+*.keystore
+*.jks
+.claude/

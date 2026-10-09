@@ -1,0 +1,5 @@
+First public release.
+
+- Current conditions, next 24 hours, next 7 days on one screen
+- US radar card (NOAA NEXRAD) with a built-in offline base map
+- Place search or coarse location, rounded to ~1 km

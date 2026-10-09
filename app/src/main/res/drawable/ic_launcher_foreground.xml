@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A weather balloon: cream envelope aloft, tether, and its gold radiosonde. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Envelope -->
+    <path
+        android:pathData="M54,27 a15,15 0 1,1 -0.01,0 z"
+        android:fillColor="#FFF3D9" />
+    <!-- Neck -->
+    <path
+        android:pathData="M50.5,55.5 L57.5,55.5 L54,61 z"
+        android:fillColor="#FFF3D9" />
+    <!-- Tether -->
+    <path
+        android:pathData="M54,61 L54,68"
+        android:strokeColor="#FFF3D9"
+        android:strokeWidth="2.2"
+        android:strokeAlpha="0.85"
+        android:fillColor="#00000000" />
+    <!-- Radiosonde -->
+    <path
+        android:pathData="M50,68 L58,68 a2.5,2.5 0 0 1 2.5,2.5 L60.5,75.5 a2.5,2.5 0 0 1 -2.5,2.5 L50,78 a2.5,2.5 0 0 1 -2.5,-2.5 L47.5,70.5 a2.5,2.5 0 0 1 2.5,-2.5 z"
+        android:fillColor="#FFD98A" />
+</vector>

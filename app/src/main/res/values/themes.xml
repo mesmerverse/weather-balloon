@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WeatherBalloon" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Neutral dusk tone until Compose paints the sky gradient. -->
+        <item name="android:windowBackground">#182338</item>
+    </style>
+</resources>
