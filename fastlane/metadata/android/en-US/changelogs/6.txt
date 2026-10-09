@@ -1,0 +1,1 @@
+Build fix for reproducible F-Droid builds (dependency verification checksums). No app changes.
